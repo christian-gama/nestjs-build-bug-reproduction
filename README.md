@@ -38,4 +38,6 @@ I'd like to see a faster build time without using the @nest/swagger plugin enabl
 
 ## Screenshot
 
+This screenshot was made using Docker, which ensures that is no caching going on as it will build the application from scratch.
+
 ![Build Time Comparison](./screenshot.png)
