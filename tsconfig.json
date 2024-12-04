@@ -1,0 +1,53 @@
+{
+  "compilerOptions": {
+    "module": "commonjs",
+    "declaration": true,
+    "removeComments": true,
+    "emitDecoratorMetadata": true,
+    "experimentalDecorators": true,
+    "allowSyntheticDefaultImports": true,
+    "target": "ES2021",
+    "sourceMap": true,
+    "outDir": "./dist",
+    "baseUrl": "./",
+    "incremental": true,
+    "skipLibCheck": true,
+    "strictNullChecks": false,
+    "noImplicitAny": false,
+    "strictBindCallApply": false,
+    "forceConsistentCasingInFileNames": false,
+    "noFallthroughCasesInSwitch": false,
+    "paths": {
+      "@app1": [
+        "./apps/app1/src"
+      ],
+      "@app1/*": [
+        "apps/app1/src/*"
+      ],
+      "@app2": [
+        "./apps/app2/src"
+      ],
+      "@app2/*": [
+        "apps/app2/src/*"
+      ],
+      "@app/lib1": [
+        "libs/lib1/src"
+      ],
+      "@app/lib1/*": [
+        "libs/lib1/src/*"
+      ],
+      "@app/lib2": [
+        "libs/lib2/src"
+      ],
+      "@app/lib2/*": [
+        "libs/lib2/src/*"
+      ],
+      "@app/lib3": [
+        "libs/lib3/src"
+      ],
+      "@app/lib3/*": [
+        "libs/lib3/src/*"
+      ]
+    }
+  }
+}
