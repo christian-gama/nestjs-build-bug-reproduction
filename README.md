@@ -35,3 +35,7 @@ pnpm start # Will start the application without the plugin enabled and everythin
 Disabling or enabling the @nestjs/swagger should have no impact in the build time of the application, but the weirdest behavior is to have a build time 10x faster with the plugin ENABLED, which does not make any sense, since swc-loader does not even support the @nest/swagger plugin.
 
 I'd like to see a faster build time without using the @nest/swagger plugin enabled - the only thing this plugin is doing for the project is to improve the build time, which shouldn't be happening.
+
+## Screenshot
+
+![Build Time Comparison](./screenshot.png)
