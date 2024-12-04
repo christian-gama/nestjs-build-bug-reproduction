@@ -5,16 +5,18 @@ This repository is a reproduction of a weird behavior related to the building pr
 ## Steps to reproduce
 
 ### Local
-1. Clone this repository
-2. Run `pnpm install`
-3. Run `chmod +x ./entrypoint.sh`
-4. Run `./entrypoint.sh`
-5. Compare the build time with plugin enabled and plugin disabled
+1. Run `git clone https://github.com/christian-gama/nestjs-build-bug-reproduction.git`
+2. Run `cd nestjs-build-bug-reproduction.git`
+3. Run `pnpm install`
+4. Run `chmod +x ./entrypoint.sh`
+5. Run `./entrypoint.sh`
+6. Compare the build time with plugin enabled and plugin disabled
 
 ### Docker
-1. Clone this repository
-2. Run `pnpm docker:build`
-3. Compare the build time with plugin enabled and plugin disabled
+1. Run `git clone https://github.com/christian-gama/nestjs-build-bug-reproduction.git`
+2. Run `cd nestjs-build-bug-reproduction.git`
+3. Run `pnpm docker:build`
+4. Compare the build time with plugin enabled and plugin disabled
 
 ## Testing the application works fine
 
